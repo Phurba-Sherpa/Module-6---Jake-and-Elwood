@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <title>Jake & Elwood</title>
+    <!-- viewport meta to render pages on mobile properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400, 500,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/094e1170dd.js" crossorigin="anonymous"></script>
+    <!-- link to my CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- section header -->
+    <header class="header main-grid">
+        <div class="header-content">
+            <a href="index.html" class="logo-link">
+                <img src="./img/logo.png" alt="" class="logo" />
+            </a>
+            <button aria-label="nav open button" class="btn-nav-open">&#9776;</button>
+
+            <nav class="nav">
+                <button aria-label="nav close button" class="btn-nav-close">&times;</button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active-link">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section main -->
+    <main>
+        <section class="main-grid section-about">
+            <h1 class="heading-primary">Contact</h1>
+            <p class="subhead">Let us know how we can help you need and we’ll drive over to your place in our
+                Bluesmobile the following day to discuss the deal.</p>
+        </section>
+        <!-- section about  -->
+        <section class="main-grid section-contact">
+            <div class="contact-content">
+                <h3 class="section-title">Getting in touch with us</h3>
+                <p class="contact-desc">You can either use the form or <a href="#" class="email-link">send us an email</a>. I'll get back in touch with you as soon as possible!</p>
+                <img src="./img/contact.jpg" alt="" class="contact-img" />
+            </div>
+
+            <form class="contact-form">
+                <div class="input1">
+                    <label class="label">First Name</label>
+                    <input class="" />
+                </div>
+                <div class="input2">
+                    <label class="label">Email</label>
+                    <input  />
+                </div>
+                <div class="textarea">
+                    <label class="label">Message</label>
+                    <textarea rows="10" class=""></textarea>
+                </div>
+                <button class="btn-submit">Submit</button>
+            </form>
+        </section>  
+    </main>
+
+    <footer>
+        <div class="footer main-grid">
+            <div class="footer-content">
+                <img src="./img/logo.png" alt="jakeandelhoold logo" class="footer-logo" />
+                <p class="footer-desc">Two brothers from Chicago that are just trying to pay back their debt by helping
+                    others with their SEO, SEM, and Content Marketing needs.</p>
+                <p class="footer-fineprint">&copy; PhurbaSherpa 2023</p>
+            </div>
+            <ul class="social-links">
+                <li class="social-item"><a href="#" class="social-link"><i
+                            class="fa-brands fa-square-facebook icon"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter icon"></i></a>
+                </li>
+                <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram icon"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
