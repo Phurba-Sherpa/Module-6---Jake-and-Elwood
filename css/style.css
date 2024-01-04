@@ -4,6 +4,7 @@
     --color-grey-100: #EBEBEB;
     --color-white: #fff;
     --color-accent: #FFE600;
+    --color-accent-500: #ffc400;
 }
 
 /* ====================
@@ -107,6 +108,8 @@ footer {background-color: var(--color-grey-100);}
 
 .btn:hover,
 .btn:focus {
+    cursor: pointer;
+    background-color: var(--color-accent-500);
 }
 
 .btn--primary {
@@ -422,6 +425,7 @@ input {
 textarea,
 input {
     margin-bottom: 2em;
+    font-family: inherit;
 }
 
 .textarea {
@@ -446,8 +450,19 @@ input {
     background-color: var(--color-accent);
     letter-spacing: 1px;
     grid-area: submit-btn;
+    transition: all .3s;
+    border-radius: 3px;
 }
 
+.btn-submit:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transform: translateY(-2px);
+}
 /* ====================
 MEDIA QUERY
 =======================*/
